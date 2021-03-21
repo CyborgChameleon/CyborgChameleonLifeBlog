@@ -1,0 +1,85 @@
+
+
+H1 { color: orange; }
+/*note that all things comes in 3 parts, Selector{Propert:Value;} property and value are seperated by a colon*/
+
+
+H2 {
+    
+    background-color:gray;/*you can add more description seperating each block (peoperty/value) with semicolon*/
+    font-size: 200%;}
+
+#RedID { /*"#" selects all items/texts that are attributed with "RedID" ID that are not either H1 or H2 as they are already assigned with certain attribute*/
+    color:red;
+    }
+    
+    emp {color:pink;} /*you can add more or be more specific rules into the same section*/
+    
+    .classBlue emp {color:purple;} /*the rules applies to texts withing emp tag that is within with the Identified section and a text (p,h1,h2 etc) with the class tagged to it*/
+    
+    
+.classBlue{/*note that all names (for both ID and Class names can't be started off as a number*/
+    color:Blue;}
+    
+/*-------------------------------------------------TEXT BASED------------------------------------------------*/
+
+/*Font List*/
+
+p.serif {font-family: "Times New Roman", Times, serif; }
+/*the quotation marks are used because the font name have more than 1 words*/
+p.sansserif {font-family: Helvetica, Arial, sans-serif;}
+/*multiple fonts are listed just in case the bowsers do not support the first one, it'll fallback to the next font to use*/
+p.monospace {font-family: "Courier New", Courier, monospace;}
+
+p.cursive {font-family: Florence, cursive;}
+
+p.fantasy {font-family: Blippo, fantasy;}
+
+
+
+p.small {font-size: small;}
+p.medium {font-size: medium;}
+p.large {font-size: large;}
+p.xlarge {font-size: x-large;}
+p.PixelSize {font-size: 20px;} /*the browser default size is 16px. */
+p.EmSize {font-size: 1.24em;} /*em is a relative size unit. It allows all major browsers to resize the text.
+
+To calculate the em size, just use the following formula: em = pixels / 16*/
+
+
+
+p.normal {font-style: normal;}
+p.italic {font-style: italic;}
+p.oblique {font-style: oblique;} /*similar to italic but it's less supported*/
+
+
+
+
+p.lighter {font-weight: lighter;}
+p.normal{font-weight:normal;}
+p.bold {font-weight: bold;}
+p.bolder {font-weight: bolder;}
+p.thicker {font-weight: 900;}
+/*can define the font weight with a number from 100 (thin) to 900 (thick),400=normal, and 700=bold. */
+
+
+
+p.normal {font-variant: normal;}
+p.small {font-variant: small-caps;}
+
+
+p.colorful{color:red;}/*#ff0000 and rgb(255,0,0) also works*/
+
+p.left{text-align:left;}
+p.center{text-align:center;}
+p.right{text-align:right;}
+p.justify{text-align:justify;}
+
+
+td.top {vertical-align: top;}
+td.middle {vertical-align: middle;}
+td.bottom {vertical-align: bottom;}
+
+
+
+
