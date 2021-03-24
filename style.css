@@ -1,0 +1,18 @@
+/* check reset style sheet at 15:30
+ https://www.youtube.com/watch?v=YNSnugnQYiI&list=PL0eyrZgxdwhwNC5ppZo_dYGVjerQY3xYU&index=7*/
+/*figure out how to make color defaut for all of the page and the font family style*/
+/*learn to use id as a way to index toward a section at 8:15
+ https://www.youtube.com/watch?v=wXUhTZpF_HQ&list=PL0eyrZgxdwhwNC5ppZo_dYGVjerQY3xYU&index=9 */
+.defaultCC{
+    color: white;
+    font-family: sans-serif;
+    background: #005500;
+    border:0px;
+}
+
+.homepage_header {
+    font-size: 70px;
+    margin: 0px;
+    background-color: #001100;
+    
+}
