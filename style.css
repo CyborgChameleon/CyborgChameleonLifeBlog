@@ -3,9 +3,13 @@
 /*figure out how to make color defaut for all of the page and the font family style*/
 /*learn to use id as a way to index toward a section at 8:15
  https://www.youtube.com/watch?v=wXUhTZpF_HQ&list=PL0eyrZgxdwhwNC5ppZo_dYGVjerQY3xYU&index=9 */
+
+/*list of tags for css https://www.youtube.com/watch?v=azZCW24XtT4&list=PL0eyrZgxdwhwNC5ppZo_dYGVjerQY3xYU&index=11*/
+/* play around with fonts https://www.youtube.com/watch?v=Hwq_Mr12bcI&list=PL0eyrZgxdwhwNC5ppZo_dYGVjerQY3xYU&index=11*/
+
 .defaultCC{
     color: white;
-    font-family: sans-serif;
+    font-family: arial;
     background: #005500;
     border:0px;
 }

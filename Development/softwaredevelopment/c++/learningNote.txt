@@ -1,0 +1,26 @@
+Things to look later after finishing the books
+
+https://docs.microsoft.com/en-us/cpp/cpp/?view=msvc-160
+
+https://www.stroustrup.com/glossary.html
+
+https://www.stroustrup.com/compilers.html
+
+https://www.stroustrup.com/PPPslides/calculator00.cpp
+
+https://www.stroustrup.com/PPPslides/calculator00.cpp
+
+https://www.stroustrup.com/PPPslides/Mac-Makefile
+
+https://www.intel.com/content/www/us/en/education/intel-education.html
+
+https://www.fltk.org/
+
+https://www.stroustrup.com/software.pdf
+
+https://www.stroustrup.com/bs_faq.html#e-books
+
+https://alf-p-steinbach.github.io/Install-FLTK-for-use-with-Visual-C-/#3-build-the-library-with-visual-studio-2019
+
+https://www.stroustrup.com/Programming/RGBColors.htm
+
