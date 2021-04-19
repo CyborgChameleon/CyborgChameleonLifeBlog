@@ -7,16 +7,50 @@
 /*list of tags for css https://www.youtube.com/watch?v=azZCW24XtT4&list=PL0eyrZgxdwhwNC5ppZo_dYGVjerQY3xYU&index=11*/
 /* play around with fonts https://www.youtube.com/watch?v=Hwq_Mr12bcI&list=PL0eyrZgxdwhwNC5ppZo_dYGVjerQY3xYU&index=11*/
 
-.defaultCC{
+
+#homepage{
     color: white;
     font-family: arial;
     background: #005500;
     border:0px;
+    float:center;
 }
 
-.homepage_header {
+
+#homepage_header {
     font-size: 70px;
     margin: 0px;
     background-color: #001100;
     
+}
+
+.defaultCC{
+    color: white;
+    font-family: arial;
+    background: #001100;
+    border:0px;
+    padding:5px;
+    
+}
+
+
+.body_content{
+    background: #005500;
+    float:left;
+    margin:.5%;
+}
+
+
+#index{
+        width:15%;
+}
+
+
+#content{
+    width:67%;
+}
+
+
+#ads{
+    width:15%;
 }
