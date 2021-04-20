@@ -38,6 +38,7 @@
     background: #005500;
     float:left;
     margin:.5%;
+    padding:.5%;
 }
 
 
@@ -47,7 +48,7 @@
 
 
 #content{
-    width:67%;
+    width:64%;
 }
 
 
