@@ -8,22 +8,50 @@
 /* play around with fonts https://www.youtube.com/watch?v=Hwq_Mr12bcI&list=PL0eyrZgxdwhwNC5ppZo_dYGVjerQY3xYU&index=11*/
 
 
-#homepage{
+#index{
     color: white;
     font-family: arial;
     background: #005500;
     border:0px;
-    float:center;
-}
+    }
 
-
-#homepage_header {
+#indexHeader {
     font-size: 70px;
-    margin: 0px;
     background-color: #001100;
-    
+    padding:10px;
+    margin: auto;
+    border-radius:10px;
+    display: inline;
+    }
+  
+/*buttons*/
+a:link, a:visited {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 5px #999;
 }
 
+a:hover{
+    background-color: #3e8e41;
+}
+
+a:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+
+/*
 .defaultCC{
     color: white;
     font-family: arial;
@@ -55,3 +83,4 @@
 #ads{
     width:15%;
 }
+*/
