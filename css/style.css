@@ -1,30 +1,71 @@
-/* check reset style sheet at 15:30
- https://www.youtube.com/watch?v=YNSnugnQYiI&list=PL0eyrZgxdwhwNC5ppZo_dYGVjerQY3xYU&index=7*/
-/*figure out how to make color defaut for all of the page and the font family style*/
-/*learn to use id as a way to index toward a section at 8:15
- https://www.youtube.com/watch?v=wXUhTZpF_HQ&list=PL0eyrZgxdwhwNC5ppZo_dYGVjerQY3xYU&index=9 */
+#ccstyle{
+    background:#4CAC40;
+    font-family:arial;
+    float:left;
 
-/*list of tags for css https://www.youtube.com/watch?v=azZCW24XtT4&list=PL0eyrZgxdwhwNC5ppZo_dYGVjerQY3xYU&index=11*/
-/* play around with fonts https://www.youtube.com/watch?v=Hwq_Mr12bcI&list=PL0eyrZgxdwhwNC5ppZo_dYGVjerQY3xYU&index=11*/
+}
 
+#header{
+    font-family:arial;
+    background:#79C25A;
+    text-align:center;
+    padding:.5%;
+    margin:.5%;
+    border-radius:10px;
+    color:#142c11;
+    border-style: solid;
+    border-width:1%;
+    
+}
+.body{
+    margin:.5%;
+    padding:.5%;
+    float:left;
+    border-radius:10px;
+    border-style: solid;
+    border-width:1%;
+
+    
+}
 
 #index{
-    color: white;
-    font-family: arial;
-    background: #005500;
-    border:0px;
-    }
+    width:10%;
+    background:#95D46C;
+}
 
-#indexHeader {
-    font-size: 70px;
-    background-color: #001100;
-    padding:10px;
-    margin: auto;
-    border-radius:10px;
-    display: inline;
-    }
-  
+#content{
+    width:72%;
+    background:#B1D979;
+    
+}
+
+#notes{
+    width:10%;
+    background:#95D46C;
+
+
+}
+
+
+/*
+ color palete used
+ https://www.schemecolor.com/chameleon-green-shades.php
+ https://colorpicker.me/#4cac40
+ 
+ */
+
+
+
+
+
+
+
+
+
+
+
 /*buttons*/
+/*
 a:link, a:visited {
     display: inline-block;
     padding: 10px 20px;
@@ -48,39 +89,5 @@ a:active {
     background-color: #3e8e41;
     box-shadow: 0 5px #666;
     transform: translateY(4px);
-}
-
-
-/*
-.defaultCC{
-    color: white;
-    font-family: arial;
-    background: #001100;
-    border:0px;
-    padding:5px;
-    
-}
-
-
-.body_content{
-    background: #005500;
-    float:left;
-    margin:.5%;
-    padding:.5%;
-}
-
-
-#index{
-        width:15%;
-}
-
-
-#content{
-    width:64%;
-}
-
-
-#ads{
-    width:15%;
 }
 */
