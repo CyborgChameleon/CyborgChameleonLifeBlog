@@ -1,7 +1,14 @@
+
+
+
+
+
 #ccstyle{
-    background:#4CAC40;
+    background:#a7be64 url(../images/kecleonBG.jpeg) no-repeat fixed;
+    background-size: cover;
     font-family:arial;
     float:left;
+    
 
 }
 
