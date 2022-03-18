@@ -1,61 +1,52 @@
-
-
-
-
-
-#ccstyle{
-    background:#a7be64 url(../images/kecleonBG.jpeg) no-repeat fixed;
-    background-size: cover;
-    font-family:arial;
+body{
+		margin:0%;
+    font-family:Arial;
+		color:white;
+    
     float:left;
     
 
 }
 
-#header{
-    font-family:arial;
-    background:#79C25A;
-    text-align:center;
-    padding:.5%;
-    margin:.5%;
-    border-radius:10px;
-    color:#142c11;
-    border-style: solid;
-    border-width:1%;
-    
-}
-.body{
-    margin:.5%;
-    padding:.5%;
-    float:left;
-    border-radius:10px;
-    border-style: solid;
-    border-width:1%;
-
-    
+header{
+	padding:1%;
+  background:#202225;
+	width:100%;
 }
 
-#index{
-    width:10%;
-    background:#95D46C;
+nav{
+	padding:1%;
+	background:#30362f;
+  width:15%;
+	float:left;
+	
 }
 
-#content{
-    width:72%;
-    background:#B1D979;
-    
+article{ 
+	padding:1%;
+	background:#373F36;
+  width:69%;
+	float:left;
+	
+} 
+
+aside{ 
+	padding:1%;
+  width:10%;
+  background:#30362F;
+	float:left;
+	
 }
-
-#notes{
-    width:10%;
-    background:#95D46C;
-
-
+footer{
+	padding:.5%;
+  background:#202225;
+	width:100%;
+	float:left;
 }
-
 
 /*
  color palete used
+ https://www.color-name.com/chameleon-green.color`
  https://www.schemecolor.com/chameleon-green-shades.php
  https://colorpicker.me/#4cac40
  
