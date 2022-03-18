@@ -1,9 +1,9 @@
-body{
+#body{
 		margin:0%;
     font-family:Arial;
 		color:white;
     
-    float:left;
+    
     
 
 }
@@ -11,7 +11,7 @@ body{
 header{
 	padding:1%;
   background:#202225;
-	width:100%;
+	
 }
 
 nav{
@@ -38,19 +38,12 @@ aside{
 	
 }
 footer{
-	padding:.5%;
+	padding:1%;
   background:#202225;
-	width:100%;
 	float:left;
+	width:98%;
 }
 
-/*
- color palete used
- https://www.color-name.com/chameleon-green.color`
- https://www.schemecolor.com/chameleon-green-shades.php
- https://colorpicker.me/#4cac40
- 
- */
 
 
 
