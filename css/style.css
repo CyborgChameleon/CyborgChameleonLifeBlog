@@ -46,7 +46,29 @@ footer{
 
 
 
+a:link, a:visited {
+  color: #fff;
+  text-decoration: underline;
+  cursor: auto;
+}
 
+a:link:active, a:visited:active {
+  color: red ;
+}
+
+
+
+table.schedule{
+	width:100%;
+	border:thick solid;
+	float:center;
+	border-collapse: collapse;
+}
+
+
+.schedule td, .schedule th{
+	border: thin solid;
+}
 
 
 
