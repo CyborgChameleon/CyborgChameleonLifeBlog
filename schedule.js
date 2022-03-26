@@ -11,7 +11,7 @@ add color to the table
 
 
 
-import {schedules} from "https://1drv.ms/u/s!AtdfDuWpiraqjwaVyfSm6-4TpDWc?e=4Fdx9f";
+import {schedules} from "./scheduleDatabase.js";//"https://1drv.ms/u/s!AtdfDuWpiraqjwaVyfSm6-4TpDWc?e=4Fdx9f";
 
 let currentSchedule=schedules.s2022_2Winter;
 
