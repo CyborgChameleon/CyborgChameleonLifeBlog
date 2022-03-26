@@ -11,411 +11,9 @@ add color to the table
 
 
 
+import {schedules} from "https://1drv.ms/u/s!AtdfDuWpiraqjwaVyfSm6-4TpDWc?e=4Fdx9f";
 
-
-
-
-
-//---------------------------------------------------------------------------------
-//DATABASE SECTION
-//---------------------------------------------------------------------------------
-
-
-var schedules={
-	
-	sYYYY_nSeason:{//template
-		season:"",
-		sleep:[23,8],//in h
-		schedule:{
-			subject1:{
-				name:"subject1",
-				
-				time:{
-					mon:[],
-					tue:[],
-					wed:[],
-					thu:[],
-					fri:[],
-					sat:[],
-					sun:[]
-				},
-				
-				color:"#F00",
-				
-				notes:"write notes here"
-			}
-			
-		}
-	},
-
-
-	s2022Fall:{//FALL 2022
-		season:"Fall 2022",
-		sleep:[23,8],
-		schedule:{
-			mchi206:{
-				name:"MCHI 206",
-				
-				time:{
-					mon:[],
-					tue:[{start:1000,end:1300},{start:1500,end:1600}],
-					wed:[],
-					thu:[{start:1000,end:1300}],
-					fri:[],
-					sat:[],
-					sun:[]
-				},
-				
-				color:"#F00",
-				
-				notes:"1015-1300"
-			}
-			// {
-				// block:"COMP 218",
-				
-				// time:[
-					// ["tue",-],
-					// ["thu",-]
-				// ],
-				
-				// color:"-",
-				
-				// notes:"-"
-			// }
-		}
-	},
-	
-	
-	s2022_2Winter:{
-		season:"Winter 2022",
-		sleep:[23,8],//in h
-		schedule:{
-			
-			MCHI206:{
-				name:"MCHI206",
-				
-				time:{
-					mon:[{start:1000,end:1300}],
-					wed:[{start:1000,end:1300}]
-					
-				},
-				
-			},
-			
-			Running:{
-				name:"RUN",
-				
-				time:{
-					mon:[900],
-					wed:[900]
-					
-				},
-				
-			},
-			
-			MorningRoutine:{
-				name:"MorningRoutine",
-				
-				time:{
-					mon:[800],
-					tue:[800],
-					wed:[800],
-					thu:[800],
-					fri:[800],
-					sat:[800],
-					sun:[800]
-					
-				}
-			},
-			
-			CatchUpOrHobbies:{
-				name:"Catch Up Or Hobbies",
-				
-				time:{
-					
-				}
-			},
-			
-			Lunch:{
-				name:"Lunch",
-				
-				time:{
-					mon:[1300],
-					tue:[1300],
-					wed:[1300],
-					thu:[1300],
-					fri:[1300],
-					sat:[1300],
-					sun:[1300]
-				}
-			},
-
-			studyChinese:{
-				name:"Chinese",
-				
-				time:{
-					
-				}
-			},
-			
-			dailyRoutine:{
-				name:"Daily Routine",
-				
-				time:{
-					mon:[1600],
-					tue:[1600],
-					wed:[1600],
-					thu:[1600],
-					fri:[1600],
-					sat:[1600],
-					sun:[1600]
-				}
-			},
-			
-			FreeTime:{
-				name:"FREE TIME",
-				
-				time:{
-					
-				}
-			},
-			
-			Dinner:{
-				name:"Dinner",
-				
-				time:{
-					mon:[1800],
-					tue:[1800],
-					wed:[1800],
-					thu:[1800],
-					fri:[1800],
-					sat:[1800],
-					sun:[1800]
-				}
-			},
-			
-			EveningRoutine:{
-				name:"Evening Routine",
-				
-				time:{
-					mon:[1900],
-					tue:[1900],
-					wed:[1900],
-					thu:[1900],
-					fri:[1900],
-					sat:[1900],
-					sun:[1900]
-					
-				}
-			},
-			
-			LanguagePreservationMeeting:{
-				name:"Report Meeting (Web)",
-				
-				time:{
-					mon:[],
-					tue:[2000],
-					wed:[],
-					thu:[],
-					fri:[],
-					sat:[],
-					sun:[]
-				}
-			}
-		}
-	},
-	
-	
-	s2022_1Winter:{
-		season:"Winter 2022",
-		sleep:[20,5],//in h
-		schedule:{
-			
-			MCHI206:{
-				name:"MCHI206",
-				
-				time:{
-					mon:[{start:1000,end:1300}],
-					tue:[],
-					wed:[{start:1000,end:1300}],
-					thu:[],
-					fri:[],
-					sat:[],
-					sun:[]
-				},
-				
-				color:"#F00",
-				
-				notes:"in person class"
-			},
-			
-			TotalBodyAndCleanUp:{
-				name:"Total Body and Clean Up",
-				
-				time:{
-					mon:[{start:600,end:900}],
-					wed:[{start:600,end:900}],
-					fri:[{start:600,end:900}]
-					
-				},
-				
-			},
-			
-			CoreAndVacuum:{
-				name:"study chinese",
-				
-				time:{
-					tue:[{start:600,end:900}],
-					thu:[{start:600,end:900}]
-				},
-				
-			},
-			
-			Cardio:{
-				name:"Cardio",
-				
-				time:{
-					sat:[{start:600,end:900}],
-					sun:[{start:600,end:900}]
-				},
-				
-			},
-			
-			MorningRoutine:{
-				name:"MORNING ROUTINE",
-				
-				time:{
-					mon:[500],
-					tue:[500],
-					wed:[500],
-					thu:[500],
-					fri:[500],
-					sat:[500],
-					sun:[500]
-				}
-			},
-			
-			CatchUpOrHobbies:{
-				name:"Catch Up Or Hobbies",
-				
-				time:{
-					mon:[900],
-					tue:[900],
-					wed:[900],
-					thu:[900],
-					fri:[900],
-					sat:[900],
-					sun:[900]
-				}
-			},
-			
-			Lunch:{
-				name:"Lunch",
-				
-				time:{
-					mon:[1300],
-					tue:[1300],
-					wed:[1300],
-					thu:[1300],
-					fri:[1300],
-					sat:[1300],
-					sun:[1300]
-				}
-			},
-
-			studyChinese:{
-				name:"Chinese",
-				
-				time:{
-					mon:[1400,1500],
-					tue:[1400,1500],
-					wed:[1400,1500],
-					thu:[1400,1500],
-					fri:[1400,1500],
-					sat:[1400,1500],
-					sun:[1400,1500]
-				}
-			},
-			
-			dailyRoutine:{
-				name:"Daily Routine",
-				
-				time:{
-					mon:[1600],
-					tue:[1600],
-					wed:[1600],
-					thu:[1600],
-					fri:[1600],
-					sat:[1600],
-					sun:[1600]
-				}
-			},
-			
-			FreeTime:{
-				name:"FREE TIME",
-				
-				time:{
-					mon:[1700],
-					tue:[1700],
-					wed:[1700],
-					thu:[1700],
-					fri:[1700],
-					sat:[1700],
-					sun:[1700]
-				}
-			},
-			
-			Dinner:{
-				name:"Dinner",
-				
-				time:{
-					mon:[1800],
-					tue:[1800],
-					wed:[1800],
-					thu:[1800],
-					fri:[1800],
-					sat:[1800],
-					sun:[1800]
-				}
-			},
-			
-			EveningRoutine:{
-				name:"Evening Routine",
-				
-				time:{
-					mon:[1900],
-					tue:[1900],
-					wed:[1900],
-					thu:[1900],
-					fri:[1900],
-					sat:[1900],
-					sun:[1900]
-				}
-			},
-			
-			LanguagePreservationMeeting:{
-				name:"Report Meeting (Web)",
-				
-				time:{
-					mon:[],
-					tue:[2000],
-					wed:[],
-					thu:[],
-					fri:[],
-					sat:[],
-					sun:[]
-				}
-			}
-		}
-	}
-	
-}
-	
-
-
-
-currentSchedule=schedules.s2022_2Winter;
-
+let currentSchedule=schedules.s2022_2Winter;
 
 
 
@@ -433,10 +31,10 @@ currentSchedule=schedules.s2022_2Winter;
 
 //Schdedule duration according what's in the database
 if (currentSchedule.sleep[0]>24){
-	scheduleDuration=((currentSchedule.sleep[0]-24)-currentSchedule.sleep[1])+2;
+	var scheduleDuration=((currentSchedule.sleep[0]-24)-currentSchedule.sleep[1])+2;
 	
 } else {
-	scheduleDuration=(currentSchedule.sleep[0]-currentSchedule.sleep[1])+2;
+	var scheduleDuration=(currentSchedule.sleep[0]-currentSchedule.sleep[1])+2;
 	
 }
 
@@ -453,9 +51,9 @@ const digits = (num, count = 0) => {
 var hourlyScheduleMatrix=[];
 
 
-for (hourIndex=0; hourIndex<scheduleDuration; hourIndex++){
+for (let hourIndex=0; hourIndex<scheduleDuration; hourIndex++){
 	
-	hourlyWeek={
+	var hourlyWeek={
 		time:"",
 		mon:"Monday",
 		tue:"Tuesday",
@@ -470,11 +68,11 @@ for (hourIndex=0; hourIndex<scheduleDuration; hourIndex++){
 	for (const day in hourlyWeek){ //changes the values in the schema
 	
 		//time is defined
-		hour=hourIndex+currentSchedule.sleep[1]-1;
+		var hour=hourIndex+currentSchedule.sleep[1]-1;
 		
 		//time is being converted into 4 digit string
 		hour=(hour*100).toString();
-		for (digitIndex=4-digits(hour) ; digitIndex>0; digitIndex--){
+		for (let digitIndex=4-digits(hour) ; digitIndex>0; digitIndex--){
 			hour="0"+hour;
 		}
 		
@@ -519,7 +117,7 @@ for (const subject in currentSchedule.schedule){
 				//if loops allows me to write the hours in 2 formats
 				if (typeof currentSchedule.schedule[subject].time[day][period]=="object"){
 					
-					for(block=currentSchedule.schedule[subject].time[day][period].start;
+					for(let block=currentSchedule.schedule[subject].time[day][period].start;
 							block<currentSchedule.schedule[subject].time[day][period].end;
 							block+=100){
 						
