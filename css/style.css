@@ -1,4 +1,4 @@
-#body{
+body{
 		margin:0%;
     font-family:Arial;
 		color:white;
@@ -14,34 +14,32 @@ header{
 	
 }
 
+section{
+	display: flex;
+}
 nav{
 	padding:1%;
 	background:#30362f;
-  width:15%;
-	float:left;
-	
+	flex:1;
+  
 }
 
-article{ 
+main{ 
 	padding:1%;
 	background:#373F36;
-  width:69%;
-	float:left;
-	
+  flex:3;
 } 
 
 aside{ 
 	padding:1%;
-  width:10%;
   background:#30362F;
-	float:left;
+	flex:1;
 	
 }
 footer{
 	padding:1%;
   background:#202225;
-	float:left;
-	width:98%;
+	
 }
 
 
