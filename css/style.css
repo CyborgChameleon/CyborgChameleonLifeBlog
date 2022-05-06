@@ -1,60 +1,72 @@
-body{
-		margin:0%;
-    font-family:Arial;
-		color:white;
-    
-    
-    
+/*GENERAL STYLE*/ 
 
+body{
+	margin:0%;
+	font-family:Arial;
+	color:#eeeeee;
+	background:hsl(113, 7%, 12%);
 }
 
 header{
-	padding:1%;
-  background:#202225;
-	
+	padding:0;
+  	background-color:hsl(113, 7%, 12%);
 }
 
 section{
 	display: flex;
 }
+
 nav{
-	padding:1%;
-	background:#30362f;
+	padding:0;
+	background:hsl(111, 7%, 14%);
 	flex:1;
-  
 }
 
 main{ 
 	padding:1%;
-	background:#373F36;
-  flex:3;
+	background:hsl(113, 7%, 16%);
+  	flex:3;
 } 
 
 aside{ 
 	padding:1%;
-  background:#30362F;
+  	background:hsl(113, 7%, 14%);
 	flex:1;
-	
 }
+
 footer{
 	padding:1%;
-  background:#202225;
-	
+  	background:hsl(113, 7%, 12%);
 }
 
-
-
-a:link, a:visited {
-  color: #fff;
-  text-decoration: underline;
-  cursor: auto;
+/*navigation style*/
+#headerNavigationDirectory,#sideNavigationDirectory{
+	list-style-type: none;
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+}
+#headerNavigationDirectory li {
+	display: inline;
+	float: right;
+}
+#headerNavigationDirectory li:first-child {
+	float: left;
+}
+#headerNavigationDirectory li a, #sideNavigationDirectory li a {
+	display:block;
+	padding: 14px 16px;
+	color:#eeeeee;
+	text-decoration: none;
+}
+#headerNavigationDirectory li a:hover, #sideNavigationDirectory li a:hover{
+	background-color:hsl(113, 7%, 10%) ;
+}
+#headerNavigationDirectory li a:active,#sideNavigationDirectory li a:active{
+	background:hsl(113, 7%, 18%);
 }
 
-a:link:active, a:visited:active {
-  color: red ;
-}
-
-
+/*schedule style*/
 
 table.schedule{
 	width:100%;
@@ -68,37 +80,9 @@ table.schedule{
 	border: thin solid;
 }
 
-
-
-
-
-
-
-
-/*buttons*/
-/*
-a:link, a:visited {
-    display: inline-block;
-    padding: 10px 20px;
-    font-size: 24px;
-    cursor: pointer;
-    text-align: center;
-    text-decoration: none;
-    outline: none;
-    color: #fff;
-    background-color: #4CAF50;
-    border: none;
-    border-radius: 10px;
-    box-shadow: 0 5px #999;
+table, td, th, td.a {
+	text-decoration: none;
+	border: thin solid;
+  	float:center;
+	border-collapse: collapse;
 }
-
-a:hover{
-    background-color: #3e8e41;
-}
-
-a:active {
-    background-color: #3e8e41;
-    box-shadow: 0 5px #666;
-    transform: translateY(4px);
-}
-*/
