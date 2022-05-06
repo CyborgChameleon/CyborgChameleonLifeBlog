@@ -2,7 +2,7 @@
 <html>
   <head>
       <title>Schedule</title>
-      <link rel="stylesheet" href="../css/style.css">
+      <link rel="stylesheet" id="cssFileUpdate">
   </head>
 
   <body>
@@ -65,15 +65,15 @@
 							</tr>
 							<tr>
 								<td>1800</td>
-								<td>daily routine/miscelenous/find jobs</td>
+								<td><a href="../AreasOfLife/SelfImprovement/DailyRoutines.html">Daily Routine</a></td>
 							</tr>
 							<tr>
 								<td>1900</td>
-								<td>dinner</td>
+								<td>Dinner</td>
 							</tr>
 							<tr>
 								<td>2000</td>
-								<td><a href="../AreasOfLife/SelfImprovement/EveningRoutines.html">evening routine</a></td>
+								<td><a href="../AreasOfLife/SelfImprovement/EveningRoutines.html">Evening Routine</a></td>
 							</tr>
 						</tbody>
 					</table>
@@ -100,15 +100,26 @@
 				20220506	
 				developer's notes
 				<ul>
-					<li>
-						check schedule.js things to do list
-					</li>
+					<li>check schedule.js things to do list</li>
+					<li>turn the schedule in html table into js table</li>
 				</ul>
 			</aside>
 		</section>
 
 		<footer id="footer"></footer>
-	  <script type="module" src="../js/navigation.js"></script>		
+		<script type="module" id="jsFileUpdate"></script>	
+
+		<script>
+			
+			let oneFolderUp="../";
+			let subLvlFromRoot;
+			if (parent.window.location.href.indexOf("github")==-1){
+				subLvlFromRoot=parent.window.location.href.split("/").length-4;
+			}else{
+				subLvlFromRoot=parent.window.location.href.split("/").length-5;
+			};
+			document.getElementById("jsFileUpdate").setAttribute("src",oneFolderUp.repeat(subLvlFromRoot)+"js/navigation.js");
+		</script>
   </body>
 
 </html>

@@ -2,7 +2,7 @@
 <html>
   <head>
       <title>Evening Routine</title>
-      <link rel="stylesheet" href="../../css/style.css">
+      <link rel="stylesheet" id="cssFileUpdate">
   </head>
 
   <body>
@@ -29,7 +29,19 @@
 		</section>
 
 		<footer id="footer"></footer>
-	  <script type="module" src="../../js/navigation.js"></script>		
+		<script type="module" id="jsFileUpdate"></script>	
+
+		<script>
+			
+			let oneFolderUp="../";
+			let subLvlFromRoot;
+			if (parent.window.location.href.indexOf("github")==-1){
+				subLvlFromRoot=parent.window.location.href.split("/").length-4;
+			}else{
+				subLvlFromRoot=parent.window.location.href.split("/").length-5;
+			};
+			document.getElementById("jsFileUpdate").setAttribute("src",oneFolderUp.repeat(subLvlFromRoot)+"js/navigation.js");
+		</script>
   </body>
 
 </html>

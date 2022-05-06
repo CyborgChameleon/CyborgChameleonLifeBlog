@@ -72,8 +72,12 @@ https://jsononline.net/json-validator
 
 
 let oneFolderUp="../"
-let subLvlFromRoot=parent.window.location.href.split("/").length-5;//-4 for testing -5 for launch
-
+let subLvlFromRoot;
+			if (parent.window.location.href.indexOf("github")==-1){
+				subLvlFromRoot=parent.window.location.href.split("/").length-4;
+			}else{
+				subLvlFromRoot=parent.window.location.href.split("/").length-5;
+			}
 console.log(parent.window.location.href);
 console.log(subLvlFromRoot);
 console.log("version")
@@ -106,3 +110,8 @@ document.getElementById("footer").innerHTML=
 +
 `</div>`
 ;
+
+
+/*update the css file address*/
+document.getElementById("cssFileUpdate").setAttribute("href",oneFolderUp.repeat(subLvlFromRoot)+"css/style.css");
+/*try to switch getElementById with getElementsByTagName */
