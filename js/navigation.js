@@ -70,16 +70,21 @@ https://jsononline.net/json-validator
 */
 
 
+
+let oneFolderUp="../"
+let subLvlFromRoot=parent.window.location.href.split("/").length-4;
+
 document.getElementById("headerNavigationDirectory").innerHTML=headerNavigationObject.headerNavigationArray
 .map(
     (page) =>
-    `<li><a href="${page.location}">${page.title}</a></li>`
+    
+    `<li><a href="`+oneFolderUp.repeat(subLvlFromRoot)+`${page.location}">${page.title}</a></li>`
 )
 .join("");
 document.getElementById("sideNavigationDirectory").innerHTML=sideNavigationObject.sideNavigationArray
 .map(
     (page) =>
-    `<li><a href="${page.location}">${page.title}</a></li>`
+    `<li><a href="`+oneFolderUp.repeat(subLvlFromRoot)+`${page.location}">${page.title}</a></li>`
 )
 .join("");
 
