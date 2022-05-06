@@ -73,7 +73,8 @@ https://jsononline.net/json-validator
 
 let oneFolderUp="../"
 let subLvlFromRoot=parent.window.location.href.split("/").length-4;
-
+console.log(parent.window.location.href);
+console.log(parent.window.location.href.split("/").length-4);
 document.getElementById("headerNavigationDirectory").innerHTML=headerNavigationObject.headerNavigationArray
 .map(
     (page) =>
