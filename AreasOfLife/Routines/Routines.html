@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <title>Routines</title>
+      <link rel="stylesheet" id="cssFileUpdate">
+  </head>
+
+  <body>
+		<header>
+			<ul id="headerNavigationDirectory"></ul>
+		</header>
+		<section>
+			<nav><ul id="sideNavigationDirectory"></ul></nav>
+			<main>
+				<article>
+					<h3>Routines</h3>
+					<p>
+						I have organized three major routines:
+						Morning Routine, 
+						Daily Routine and 
+						Evening Routine.						
+					</p>				
+					<p>
+						
+					</p>	
+				</article>
+			</main>
+			<aside>
+				
+			</aside>
+		</section>
+
+		<footer id="footer"></footer>
+		
+		<script type="module" id="jsFileUpdate"></script>	
+
+		<script>
+			
+			let oneFolderUp="../";
+			let subLvlFromRoot;
+			if (parent.window.location.href.indexOf("github")==-1){
+				subLvlFromRoot=parent.window.location.href.split("/").length-4;
+			}else{
+				subLvlFromRoot=parent.window.location.href.split("/").length-5;
+			};
+			document.getElementById("jsFileUpdate").setAttribute("src",oneFolderUp.repeat(subLvlFromRoot)+"js/navigation.js");
+		</script>
+  </body>
+
+</html>

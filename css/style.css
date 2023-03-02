@@ -4,12 +4,7 @@ body, a{
 	margin:0%;
 	font-family:Arial;
 	color:#eeeeee;
-	background:hsl(113, 7%, 12%);
-}
-
-/*figure out how to fix a href tag*/
-a{
-	text-decoration: none;
+	
 }
 
 header{
@@ -45,32 +40,47 @@ footer{
 }
 
 /*navigation style*/
-#headerNavigationDirectory,#sideNavigationDirectory{
+#logo, #headerNavigationDirectory li{
+	margin:0px;
+	padding:14px 16px;
+}
+#logo{
+	float:left;
+}
+
+#headerNavigationDirectory{
+	padding: 0;
+	margin: 0;
+	text-align: right;
+	width: 100%;
+}
+
+#headerNavigationDirectory li{
+	text-align: center;
+	display:inline-block;
+	list-style: none;
+}
+
+#sideNavigationDirectory{
 	list-style-type: none;
-	overflow: hidden;
 	margin: 0;
 	padding: 0;
+	
 }
-#headerNavigationDirectory li {
-	display: inline;
-	float: right;
-}
-#headerNavigationDirectory li:first-child {
-	float: left;
-}
-#headerNavigationDirectory li a, #sideNavigationDirectory li a {
+
+
+#sideNavigationDirectory li a {
 	display:block;
 	padding: 14px 16px;
-	color:#eeeeee;
 	text-decoration: none;
+	
 }
-#sideNavigationDirectory li a{
-	background-color:hsl(113, 7%, 14%) ;
-}
-#headerNavigationDirectory li a:hover, #sideNavigationDirectory li a:hover{
+
+#logo:hover, #headerNavigationDirectory li:hover, #sideNavigationDirectory li a:hover{
 	background-color:hsl(113, 7%, 10%) ;
 }
-#headerNavigationDirectory li a:active,#sideNavigationDirectory li a:active{
+
+#logo:active, #headerNavigationDirectory li:active,#sideNavigationDirectory li a:active{
 	background:hsl(113, 7%, 18%);
 }
 
@@ -89,8 +99,6 @@ table.schedule{
 }
 
 table, td, th, td.a {
-	color:#eeeeee;
-	text-decoration: none;
 	border: thin solid;
   	float:center;
 	border-collapse: collapse;

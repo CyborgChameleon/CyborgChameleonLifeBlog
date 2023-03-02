@@ -1,0 +1,54 @@
+{
+    
+    "headerNavigationList":[
+        {
+            "title" : "Schedule",
+            "location":"schedule/schedule.html"
+        },
+        {
+            "title" : "More Coming Soon",
+            "location":"",
+            "dropdown":[
+                {
+                    "title" : "More Coming Soon 2",
+                    "location":""
+                }
+            ]
+        },
+        {
+            "title":"max 5 main things "
+        },
+        {},
+        {}
+        
+    ],
+    
+    
+    "sideNavigationList":[
+        {
+            "title" : "Schedule",
+            "location":"schedule/schedule.html"
+        },
+        {
+            "title" : "More Coming Soon",
+            "location":""
+        },
+        {
+            "title" : "More Coming Soon 2",
+            "location":"",
+            "parent": "More Coming Soon"
+        }
+    ],
+    "footerNavigationList":[
+        {
+            "title" : "Coming Soon",
+            "location":""
+        },
+        {
+            "title" : "Coming Soon",
+            "location":""
+        }
+    ]
+
+    
+}
